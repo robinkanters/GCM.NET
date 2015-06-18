@@ -1,0 +1,8 @@
+language: csharp
+solution: GCM.NET.sln
+mono:
+- latest
+before_install:
+- git submodule update --init --recursive
+script:
+- xbuild /p:Configuration=Release sln/GCM.NET.sln
