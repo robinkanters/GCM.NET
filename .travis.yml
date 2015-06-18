@@ -1,5 +1,5 @@
 language: csharp
-solution: GCM.NET.sln
+solution: sln/GCM.NET.sln
 mono:
 - latest
 before_install:
