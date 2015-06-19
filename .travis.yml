@@ -1,9 +1,5 @@
 language: csharp
 solution: sln/GCM.NET.sln
-env:
-  global:
-    - COMMIT: $TRAVIS_COMMIT
-    - BUILD_NUMBER: $TRAVIS_BUILD_NUMBER
 mono:
 - latest
 before_install:
